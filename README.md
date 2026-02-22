@@ -16,7 +16,7 @@ Designed and implemented a custom hardware platform using the ESP32-C3-WROOM-02 
 Implemented correct I²C hardware configuration (CSB high for I²C mode, SDO grounded for 0x76 address) and ensured RF performance by maintaining PCB antenna keepout and ground plane clearance. The design was first validated on breadboard and later translated into PCB layout with proper power routing and decoupling practices.
 
 ## 🖼️ Schematic
-![BLE Schematic](https://github.com/swaradh-273/ble-sensor-node/blob/main/images/ble_schematic.png?raw=true)
+![BLE Schematic]https://github.com/swaradh273/ble-sensor-node/blob/bb72f34f3a1fe04637b1ce44f684672ee541f14c/SCH_Schematic1_1-P1_2026-02-22.png
 
 
 ## ⚙️ Components
