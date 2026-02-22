@@ -19,28 +19,27 @@ Implemented correct I²C hardware configuration (CSB high for I²C mode, SDO gro
 ## 🖼️ Schematic
 
 ![BLE Schematic](images/SCH_Schematic1_1-P1_2026-02-22.png)
-# PCB
-![PCB Layout](images/pcb_layout.png)
-![PCB 2D](images/pcb_2d.png)
-![PCB 3D](images/pcb_3d.png)
+## 🖥️ PCB Layout
+![PCB Layout](images/imagespcb_layout.png)
+![PCB 2D](images/imagespcb_2d.png)
+![PCB 3D](images/imagespcb_3d.png)
 ## 📂 Gerber Files
 
-Download manufacturing files here:
-
-[Gerber ZIP](hardware/Gerber.zip)
+[Download Gerber](images/Gerber_PCB1_2026-02-22.zip)
 
 
 ## ⚙️ Components
 - ESP32-C3-WROOM-02-N4
 - BME280 Sensor (I²C)
--  3.3V LDO
+- MCP1700 3.3V LDO
 - Pull-up resistors for I²C lines
 
-## 📎 Project Files
-- Schematic (`.png`)
-- images/pcb_layout.png
-- images/pcb_2d.png
-- images/pcb_3d.png 
-- hardware/Gerber.zip
+##  Key Design Highlights
+- Ultra-low-power architecture suitable for battery operation
+- Proper decoupling for ESP32-C3 and BME280 supply stability
+- Dedicated LDO for clean sensor power rail
+- Correct I²C pull-up sizing for reliable communication
+- Boot and EN circuitry for standalone operation
+- RF antenna keep-out implemented as per datasheet guidelines
   
 
