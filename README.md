@@ -19,6 +19,15 @@ Implemented correct I²C hardware configuration (CSB high for I²C mode, SDO gro
 ## 🖼️ Schematic
 
 ![BLE Schematic](images/SCH_Schematic1_1-P1_2026-02-22.png)
+# PCB
+![PCB Layout](images/pcb_layout.png)
+![PCB 2D](images/pcb_2d.png)
+![PCB 3D](images/pcb_3d.png)
+## 📂 Gerber Files
+
+Download manufacturing files here:
+
+[Gerber ZIP](hardware/Gerber.zip)
 
 
 ## ⚙️ Components
@@ -29,4 +38,9 @@ Implemented correct I²C hardware configuration (CSB high for I²C mode, SDO gro
 
 ## 📎 Project Files
 - Schematic (`.png`)
+- images/pcb_layout.png
+- images/pcb_2d.png
+- images/pcb_3d.png 
+- hardware/Gerber.zip
+  
 
